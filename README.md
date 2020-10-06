@@ -2,7 +2,7 @@
 Domain coloring with complex functions and color functions
 
 ```python
-showPlot(lambda z: z**3-1, -3, 3, 1000, -3, 3, 1000)
+showPlot(lambda z: z**3-1, getHSVToFindSolutions, -3, 3, 1000, -3, 3, 1000)
 ```
 
 <p align="center">
@@ -11,7 +11,7 @@ showPlot(lambda z: z**3-1, -3, 3, 1000, -3, 3, 1000)
 
 
 ```python
-showPlot(mp.zeta, -3, 3, 1000, -3, 3, 1000)
+showPlot(mp.zeta, getHSVToFindSolutions, -30, 30, 1000, -30, 30, 1000)
 ```
 
 <p align="center">
